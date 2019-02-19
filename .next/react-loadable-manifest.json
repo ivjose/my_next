@@ -7,10 +7,10 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "./styles.less": [
+  "../../style/index.less": [
     {
-      "id": "./pages/styles.less",
-      "name": "./pages/styles.less",
+      "id": "./node_modules/antd/lib/style/index.less",
+      "name": "./node_modules/antd/lib/style/index.less",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -19,6 +19,70 @@
     {
       "id": 2,
       "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./index.less": [
+    {
+      "id": "./node_modules/antd/lib/breadcrumb/style/index.less",
+      "name": "./node_modules/antd/lib/breadcrumb/style/index.less",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/antd/lib/menu/style/index.less",
+      "name": "./node_modules/antd/lib/menu/style/index.less",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/antd/lib/layout/style/index.less",
+      "name": "./node_modules/antd/lib/layout/style/index.less",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/antd/lib/tooltip/style/index.less",
+      "name": "./node_modules/antd/lib/tooltip/style/index.less",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./styles.less": [
+    {
+      "id": "./pages/styles.less",
+      "name": "./pages/styles.less",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

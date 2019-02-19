@@ -93,149 +93,198 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/Layout.tsx":
-/*!*******************************!*\
-  !*** ./components/Layout.tsx ***!
-  \*******************************/
+/***/ "./components/CustomLayout.tsx":
+/*!*************************************!*\
+  !*** ./components/CustomLayout.tsx ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-server/head */ "next-server/head");
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/ivjose/Documents/projects/boilerplate/mobile-factory-next-starter/components/Layout.tsx";
+/* harmony import */ var antd_lib_breadcrumb_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/breadcrumb/style */ "antd/lib/breadcrumb/style");
+/* harmony import */ var antd_lib_breadcrumb_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/breadcrumb */ "antd/lib/breadcrumb");
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/menu/style */ "antd/lib/menu/style");
+/* harmony import */ var antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
+/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_layout_style__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/layout/style */ "antd/lib/layout/style");
+/* harmony import */ var antd_lib_layout_style__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
+/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next-server/head */ "next-server/head");
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
 
-var Layout = function Layout(_ref) {
+
+
+var _jsxFileName = "/Users/ivjose/Documents/projects/boilerplate/mobile-factory-next-starter/components/CustomLayout.tsx";
+ // import Link from 'next/link';
+
+
+var Header = antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Header,
+    Content = antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Content,
+    Footer = antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Footer;
+
+var CustomLayout = function CustomLayout(_ref) {
   var children = _ref.children,
       _ref$title = _ref.title,
       title = _ref$title === void 0 ? 'This is the default title' : _ref$title;
-  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](next_server_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("meta", {
-    charSet: "utf-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
+  return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_6__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("header", {
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("nav", {
+  }, title), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+    charSet: "utf-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
+  }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
+  })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    className: "layout",
+    style: {
+      height: '100%'
     },
-    __self: this
-  }, "Home")), " | ", ' ', react__WEBPACK_IMPORTED_MODULE_0__["createElement"](next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/list-class",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "List Example")), " | ", ' ', react__WEBPACK_IMPORTED_MODULE_0__["createElement"](next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/list-fc",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "List Example (as Functional Component)")), " | ", ' ', react__WEBPACK_IMPORTED_MODULE_0__["createElement"](next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Header, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+    className: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
-  }, "About")), " | ", ' ')), children, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("footer", {
+  }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    theme: "dark",
+    mode: "horizontal",
+    defaultSelectedKeys: ['2'],
+    style: {
+      lineHeight: '64px'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 24
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", {
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+    key: "1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 30
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
+  }, "nav 1"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+    key: "2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     },
     __self: this
-  }, "I'm here to stay (Footer)")));
+  }, "nav 2"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+    key: "3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "nav 3"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Content, {
+    style: {
+      padding: '0 50px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    style: {
+      margin: '16px 0'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "List"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "App")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+    style: {
+      background: '#fff',
+      padding: 24,
+      minHeight: 280
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, children)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Footer, {
+    style: {
+      textAlign: 'center'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Ant Design \xA92018 Created by Ant UED")));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
+/* harmony default export */ __webpack_exports__["default"] = (CustomLayout);
 
 /***/ }),
 
@@ -1230,7 +1279,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
+/* harmony import */ var _components_CustomLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CustomLayout */ "./components/CustomLayout.tsx");
 /* harmony import */ var _styles_less__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.less */ "./pages/styles.less");
 /* harmony import */ var _styles_less__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_less__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/ivjose/Documents/projects/boilerplate/mobile-factory-next-starter/pages/index.tsx";
@@ -1240,7 +1289,7 @@ var _jsxFileName = "/Users/ivjose/Documents/projects/boilerplate/mobile-factory-
 
 
 var IndexPage = function IndexPage() {
-  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_CustomLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
     title: "Home | Next.js + TypeScript Example",
     __source: {
       fileName: _jsxFileName,
@@ -1299,6 +1348,72 @@ var IndexPage = function IndexPage() {
 
 module.exports = __webpack_require__(/*! /Users/ivjose/Documents/projects/boilerplate/mobile-factory-next-starter/pages/index.tsx */"./pages/index.tsx");
 
+
+/***/ }),
+
+/***/ "antd/lib/breadcrumb":
+/*!**************************************!*\
+  !*** external "antd/lib/breadcrumb" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/breadcrumb");
+
+/***/ }),
+
+/***/ "antd/lib/breadcrumb/style":
+/*!********************************************!*\
+  !*** external "antd/lib/breadcrumb/style" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/breadcrumb/style");
+
+/***/ }),
+
+/***/ "antd/lib/layout":
+/*!**********************************!*\
+  !*** external "antd/lib/layout" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/layout");
+
+/***/ }),
+
+/***/ "antd/lib/layout/style":
+/*!****************************************!*\
+  !*** external "antd/lib/layout/style" ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/layout/style");
+
+/***/ }),
+
+/***/ "antd/lib/menu":
+/*!********************************!*\
+  !*** external "antd/lib/menu" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/menu");
+
+/***/ }),
+
+/***/ "antd/lib/menu/style":
+/*!**************************************!*\
+  !*** external "antd/lib/menu/style" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/menu/style");
 
 /***/ }),
 
